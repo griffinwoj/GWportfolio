@@ -1,4 +1,4 @@
-# THE FOUR HORSEMEN + THE APOCAPALYSE
+
 node_modules
 .node_modules
 .env
@@ -10,12 +10,12 @@ node_modules
 .env.development.local
 .env.test.local
 .env.production.local
-/build
-.build
-build
-/public
-.public
-public
+# /build
+# .build
+# build
+# /public
+# .public
+# public
 .logo.svg
 logo.svg
 package-lock.json
