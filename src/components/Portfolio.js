@@ -38,21 +38,21 @@ function Portfolio() {
             },
             {
               title: "Planner",
-              description: "Third-Party API Sceduler ft. Day.js",
+              description: "Work Day Planner",
               imgSrc: WorkDayPlanner,
               deployedLink:
-                "",
+              "https://griffinwoj.github.io/Calendar-App/",
               githubLink:
-                "",
+                "https://github.com/griffinwoj/Calendar-App",
             },
             {
-              title: "Java Script: WEB API Quiz",
-              description: "Dynamically updated HTML & CSS Web API quiz game.",
+              title: "Hello-E-Comm",
+              description: "E commerse.",
               imgSrc: WebAPI,
               deployedLink:
-                "",
+                "https://github.com/griffinwoj/Hello-E-Comm",
               githubLink:
-                "",
+                "https://github.com/griffinwoj/Hello-E-Comm",
             },
             {
               title: "Galactic-Tracker",

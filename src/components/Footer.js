@@ -7,25 +7,25 @@ import "../style/Footer.css";
 const socials = [
   {
     name: "GitHub",
-    url: "",
+    url: "https://github.com/griffinwoj",
     icon: faGithub,
     color: "#5DE512",
   },
   {
     name: "YouTube",
-    url: "",
+    url: "https://github.com/griffinwoj",
     icon: faYoutube,
     color: "#FF0000",
   },
   {
     name: "LinkedIn",
-    url: "",
+    url: "https://github.com/griffinwoj",
     icon: faLinkedin,
     color: "#2EACE8",
   },
   {
     name: "TikTok",
-    url: "",
+    url: "https://github.com/griffinwoj",
     icon: faTiktok,
     color: "white",
   },

@@ -22,11 +22,11 @@ function Header() {
                 style={{ color: "#white" }}
               />
               <Link
-                to="/7homas7he7ank-react-portfolio/"
+                to="https://github.com/griffinwoj/GWportfolio"
                 className="text-white text-decoration-none"
                 style={{ margin: "0" }}
               >
-                Thomas Calle
+                Griffin Wojtowicz
               </Link>
               <FontAwesomeIcon
                 icon={faChessKnight}

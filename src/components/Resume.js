@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../style/Resume.css";
-import PDF from "";
+import PDF from "images/G.G.S.WebLoGOWorking.pdf";
 
 // Resume component
 function Resume() {
