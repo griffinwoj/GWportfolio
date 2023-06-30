@@ -21,12 +21,12 @@ function App() {
         {/* <Header/> */}
         <div className="container mt-5">
           <Routes>
-            <Route path="/7homas7he7ank-React-Portfolio/" element={<About />} />
-            {/* <Route path="/7homas7he7ank-React-Portfolio/home" element={<Home />} /> */}
-            <Route path="/7homas7he7ank-React-Portfolio/about" element={<About />} />
-            <Route path="/7homas7he7ank-React-Portfolio/portfolio" element={<Portfolio />} />
-            <Route path="/7homas7he7ank-React-Portfolio/contact" element={<Contact />} />
-            <Route path="/7homas7he7ank-React-Portfolio/resume" element={<Resume />} />
+            <Route path="src/style/About.css" element={<About />} />
+            {/*  element={<Home />} /> */}
+            <Route path="src/style/About.css" element={<About />} />
+            <Route path="" element={<Portfolio />} />
+            <Route path="" element={<Contact />} />
+            <Route path="" element={<Resume />} />
           </Routes>
         </div>
         <Footer />
@@ -37,9 +37,3 @@ function App() {
 // Render the Footer component
 export default App;
 
-// Please note: line: 25, 20, and 21 have been saved for future reference
-
-// Please, reference the README.md for further insight
-// HowToCreateReact.md and Resume.PDF are located in the documentation folder
-// Thank you for viewing!
-// Thomas Calle 😊

@@ -11,7 +11,7 @@
     padding-bottom: 0; /* Remove padding-bottom from the social-icons-wrapper */
   }
     
- /* FOR FUTURE USE AND DEVELOPMENT FOR THE FOOTER SECTION */
+
 
 /* CSS for Old Devices Smaller than 320px (mobile) */
 @media (max-width: 320px) {
@@ -81,3 +81,5 @@
       margin: 0px;
       padding: 0px;
   }
+
+/*i will spend more time designing this in the future!!  */
