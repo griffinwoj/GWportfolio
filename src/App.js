@@ -21,12 +21,12 @@ function App() {
         {/* <Header/> */}
         <div className="container mt-5">
           <Routes>
-            <Route path="src/style/About.css" element={<About />} />
+            <Route path="src/components/About.js" element={<About />} />
             {/*  element={<Home />} /> */}
-            <Route path="src/style/About.css" element={<About />} />
-            <Route path="" element={<Portfolio />} />
-            <Route path="" element={<Contact />} />
-            <Route path="" element={<Resume />} />
+            <Route path="src/components/About.js" element={<About />} />
+            <Route path="src/components/Portfolio.js" element={<Portfolio />} />
+            <Route path="src/components/Contact.js" element={<Contact />} />
+            <Route path="src/components/Resume.js" element={<Resume />} />
           </Routes>
         </div>
         <Footer />

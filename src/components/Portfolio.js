@@ -32,12 +32,12 @@ function Portfolio() {
               description: "CSS",
               imgSrc: StackDev,
               deployedLink:
-                "",
+                "https://griffinwoj.github.io/Portfolio/",
               githubLink:
-                "",
+                "https://github.com/griffinwoj/Portfolio",
             },
             {
-              title: "Online Workday Planner",
+              title: "Planner",
               description: "Third-Party API Sceduler ft. Day.js",
               imgSrc: WorkDayPlanner,
               deployedLink:
@@ -55,22 +55,22 @@ function Portfolio() {
                 "",
             },
             {
-              title: "10 Things to Do in Toronto",
-              description: "Interactive Front-End Application Guide.",
-              imgSrc: ThingsToDoInToronto,
+              title: "Galactic-Tracker",
+              description: ".",
+              imgSrc: ,
               deployedLink:
-                "",
+                "https://github.com/griffinwoj/Galactic-Tracker",
               githubLink:
-                "",
+                "https://github.com/griffinwoj/Galactic-Tracker",
             },
             {
-              title: "Weather Dashboard",
+              title: "Whats-Up-Weather-App",
               description: "Weather Dashboard.",
               imgSrc: Weather,
               deployedLink:
                 "",
               githubLink:
-                "",
+                "https://github.com/griffinwoj/Whats-Up-Weather-App",
             },
           ].map((project, index) => (
             // Div container for each project

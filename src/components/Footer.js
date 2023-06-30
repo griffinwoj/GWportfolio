@@ -62,10 +62,11 @@ const Footer = () => {
           ))}
         </section>
         <section className="form-footer">
-          <h5 className="designer-text"></h5>
+          <h5 className="designer-text">Designed and built by <a href="   " target="_blank" rel="noreferrer">   </a></h5>
           <p>
             <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
           </p>
+          
         </section>
       </div>
     </footer>
