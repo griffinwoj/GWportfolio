@@ -7,6 +7,7 @@ html {
     sans-serif;
   line-height: 1.6;
 }
+
 /* Set height, margin, and background image for body element */
 body {
   height: 100%;
@@ -23,34 +24,40 @@ body {
   background-attachment: fixed;
   min-height: 100vh;
 }
+
 /* Set display and flex direction for root element */
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
+
 /* Set display, flex direction, and flex for app element */
 .app {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
+
 /* Set flex grow and padding for main container element */
 .main-container {
   flex-grow: 1;
   padding-top: 5em;
 }
+
 /* Set color, padding, and text alignment for footer element */
 .footer {
-  color: #fff;
+  color: #fff; /* (255,255,255) */
   text-align: center;
 }
+
 /* Set display, flex direction, and wrap for flex container element */
 .flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 /* Set font for code elements */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

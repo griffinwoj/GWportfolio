@@ -19,7 +19,7 @@ const socials = [
   },
   {
     name: "LinkedIn",
-    url: "https://github.com/griffinwoj",
+    url: "https://www.linkedin.com/in/griffinwojtowicz/",
     icon: faLinkedin,
     color: "#2EACE8",
   },
@@ -62,11 +62,11 @@ const Footer = () => {
           ))}
         </section>
         <section className="form-footer">
-          <h5 className="designer-text">Designed and built by <a href="   " target="_blank" rel="noreferrer">   </a></h5>
+          <h5 className="designer-text">Designed and built by Griffin Wojtowicz <a href="   " target="_blank" rel="noreferrer">   </a></h5>
           <p>
             <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
           </p>
-          
+
         </section>
       </div>
     </footer>

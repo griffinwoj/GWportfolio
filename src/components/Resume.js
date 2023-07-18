@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../style/Resume.css";
-import PDF from "images/G.G.S.WebLoGOWorking.pdf";
+import PDF from "../images/Resume.pdf";
 
 // Resume component
 function Resume() {
@@ -108,5 +108,6 @@ function Resume() {
     </section>
   );
 }
+
 // Export Resume
 export default Resume;

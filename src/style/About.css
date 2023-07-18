@@ -7,6 +7,7 @@
   margin-bottom: 3rem;
   font-size: 50px;
 }
+
 /* Styling for the image */
 .about-image {
   max-width: 100%; /* Ensure the image scales correctly */
@@ -31,6 +32,7 @@
   font-weight: bold;
   text-align: center;
 }
+
 /* Styling for the about section container */
 #about {
   margin-bottom: 12rem;
@@ -49,4 +51,27 @@
   .about-image {
     width: 300px;
   }
+}
+
+/* Applying hex colors */
+
+/* ABOUT SECTION */
+.about-heading {
+  color: #d9d9d9; /* (217,217,217) */
+}
+
+.about-image {
+  background-color: #3f647e; /* (63,100,126) */
+}
+
+.card-title {
+  color: #688fad; /* (104,143,173) */
+}
+
+#about {
+  background-color: #00b0b2; /* (0,176,178) */
+}
+
+.card-text {
+  color: #3f647e; /* (237,243,175) */
 }
