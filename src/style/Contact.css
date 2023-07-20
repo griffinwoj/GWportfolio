@@ -10,7 +10,8 @@
 
 /* Styling for the custom send message button */
 .custom-send-message-button {
-  background-color: #3f647e; /* (76, 175, 80) */
+  background-color: #B9870C;
+  /* (76, 175, 80) */
   border: none;
   color: white;
   text-align: center;
@@ -26,6 +27,7 @@
 
 /* Styling for the custom send message button when hovered over */
 .custom-send-message-button:hover {
-  background-color: #3f647e; /* (22, 101, 26) */
+  background-color: #3f647e;
+  /* (22, 101, 26) */
   color: white;
 }

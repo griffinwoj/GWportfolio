@@ -11,7 +11,7 @@ function Resume() {
       <Container className="resume-section">
         <Row>
           <Col className="text-center">
-            <h1>Resume</h1>
+            <h1></h1>
             <hr className="star-primary" />
             <Button variant="dark" href={PDF} download>
               Download Resume

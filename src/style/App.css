@@ -16,9 +16,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(
     to top right,
-    #fac90624 0%,
-    #ff660014 50%,
-    #cc330025 100%
+    #004489 25%,
+    #003265 50%,
+    #00244A 100%
   );
   background-repeat: no-repeat;
   background-attachment: fixed;

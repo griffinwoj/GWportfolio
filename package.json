@@ -1,19 +1,19 @@
 {
   "name": "GPortfolio",
   "version": "0.1.0",
-  "description": "",
+  "description": "A description of your GPortfolio",
   "private": true,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/griffinwoj/GWportfolio"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["GWportfolio"],
+  "author": "Your Name",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/griffinwoj/GWportfolio/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/griffinwoj/GWportfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",

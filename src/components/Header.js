@@ -6,6 +6,7 @@ import { faChessKnight } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row, Col } from "react-bootstrap";
 import "../style/Header.css";
 
+
 // Header component
 function Header() {
   return (
