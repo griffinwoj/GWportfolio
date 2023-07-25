@@ -1,4 +1,5 @@
-import Project from "../images/06-server-side-apis-homework-demo.png";
+import React from "react";
+import Project from "./Project"; // Assuming the Project component is in the same directory
 import WorkDayPlanner from "../images/14-mvc-homework-demo-01.gif";
 import WebAPI from "../images/06-server-side-apis-homework-demo.png";
 import Weather from "../images/21-mern-homework-demo-02.gif";
@@ -22,42 +23,42 @@ function Portfolio() {
               description: "Blog",
               imgSrc: Blog,
               deployedLink: "",
-              githubLink: "",
+              githubLink: ""
             },
             {
               title: "LookBook",
               description: "Google Book Search",
               imgSrc: StackDev,
               deployedLink: "https://griffinwoj.github.io/Portfolio/",
-              githubLink: "https://github.com/griffinwoj/Portfolio",
+              githubLink: "https://github.com/griffinwoj/Portfolio"
             },
             {
               title: "Planner",
               description: "Work Day Planner",
               imgSrc: WorkDayPlanner,
-              deployedLink: "https://griffinwoj.github.io/Calendar-App/",
-              githubLink: "https://github.com/griffinwoj/Calendar-App",
+              deployedLink: "",
+              githubLink: "https://github.com/griffinwoj/Calendar-App"
             },
             {
               title: "Hello-E-Comm",
               description: "WebAPI",
               imgSrc: WebAPI,
               deployedLink: "https://github.com/griffinwoj/Hello-E-Comm",
-              githubLink: "https://github.com/griffinwoj/Hello-E-Comm",
+              githubLink: "https://github.com/griffinwoj/Hello-E-Comm"
             },
             {
               title: "Galactic-Tracker",
               description: ".",
               imgSrc: EmployeeTracker,
               deployedLink: "https://github.com/griffinwoj/Galactic-Tracker",
-              githubLink: "https://github.com/griffinwoj/Galactic-Tracker",
+              githubLink: "https://github.com/griffinwoj/Galactic-Tracker"
             },
             {
               title: "Whats-Up-Weather-App",
               description: "Weather Dashboard.",
               imgSrc: Weather,
               deployedLink: "",
-              githubLink: "https://github.com/griffinwoj/Whats-Up-Weather-App",
+              githubLink: "https://github.com/griffinwoj/Whats-Up-Weather-App"
             },
           ].map((project, index) => (
             // Div container for each project

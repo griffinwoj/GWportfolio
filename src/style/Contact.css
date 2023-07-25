@@ -27,7 +27,7 @@
 
 /* Styling for the custom send message button when hovered over */
 .custom-send-message-button:hover {
-  background-color: #3f647e;
+  background-color: #C9A889;
   /* (22, 101, 26) */
-  color: white;
+  color: #E4E6E5;
 }

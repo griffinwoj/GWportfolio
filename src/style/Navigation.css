@@ -2,7 +2,7 @@
 
 /* Styling for navbar toggler icon in dark mode */
 .navbar-dark .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: #E4E6E5(133, 109, 109, 0.1);
 }
 
 .navbar-dark .navbar-toggler-icon {

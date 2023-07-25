@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Project.css";
+import "../style/Project.css"; // Assuming the Project.css file is in the same directory as the component
 
 // Project component
 function Project(props) {
