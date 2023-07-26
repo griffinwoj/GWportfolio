@@ -1,6 +1,6 @@
-import React from "react";
 import Project from "./Project"; // Assuming the Project component is in the same directory
-// import finalProject from "";
+import React from "react";
+import finalProject from "../images/mentalM.gif"; // Corrected the import path
 import WorkDayPlanner from "../images/14-mvc-homework-demo-01.gif";
 import WebAPI from "../images/06-server-side-apis-homework-demo.png";
 import Weather from "../images/21-mern-homework-demo-02.gif";
@@ -9,6 +9,7 @@ import StackDev from "../images/11-express-homework-demo-01.png";
 import EmployeeTracker from "../images/21-mern-homework-demo-02 (1).gif";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Portfolio.css";
+
 
 // Portfolio component
 function Portfolio() {
@@ -22,7 +23,7 @@ function Portfolio() {
             {
               title: "Final Project",
               description: "finalProject",
-              imgSrc: Blog,
+              imgSrc: finalProject,
               deployedLink: "",
               githubLink: ""
             },
