@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GWportfolio/static/css/main.27771be2.css",
-    "main.js": "/GWportfolio/static/js/main.c9139033.js",
+    "main.css": "/GWportfolio/static/css/main.e6c1bb39.css",
+    "main.js": "/GWportfolio/static/js/main.50cd8de7.js",
     "static/media/21-mern-homework-demo-02 (1).gif": "/GWportfolio/static/media/21-mern-homework-demo-02 (1).f40bcdd624d3951b3c82.gif",
     "static/media/21-mern-homework-demo-02.gif": "/GWportfolio/static/media/21-mern-homework-demo-02.f40bcdd624d3951b3c82.gif",
     "static/media/14-mvc-homework-demo-01.gif": "/GWportfolio/static/media/14-mvc-homework-demo-01.a3bcf94fa74e2de24f53.gif",
@@ -11,11 +11,11 @@
     "static/media/11-express-homework-demo-01.png": "/GWportfolio/static/media/11-express-homework-demo-01.d1f4035fedd90601ce45.png",
     "index.html": "/GWportfolio/index.html",
     "static/media/Resume.pdf": "/GWportfolio/static/media/Resume.31d6cfe0d16ae931b73c.pdf",
-    "main.27771be2.css.map": "/GWportfolio/static/css/main.27771be2.css.map",
-    "main.c9139033.js.map": "/GWportfolio/static/js/main.c9139033.js.map"
+    "main.e6c1bb39.css.map": "/GWportfolio/static/css/main.e6c1bb39.css.map",
+    "main.50cd8de7.js.map": "/GWportfolio/static/js/main.50cd8de7.js.map"
   },
   "entrypoints": [
-    "static/css/main.27771be2.css",
-    "static/js/main.c9139033.js"
+    "static/css/main.e6c1bb39.css",
+    "static/js/main.50cd8de7.js"
   ]
 }
