@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./Project"; // Assuming the Project component is in the same directory
+// import finalProject from "";
 import WorkDayPlanner from "../images/14-mvc-homework-demo-01.gif";
 import WebAPI from "../images/06-server-side-apis-homework-demo.png";
 import Weather from "../images/21-mern-homework-demo-02.gif";
@@ -18,6 +19,13 @@ function Portfolio() {
       <div className="container">
         <div className="row">
           {[
+            {
+              title: "Final Project",
+              description: "finalProject",
+              imgSrc: Blog,
+              deployedLink: "",
+              githubLink: ""
+            },
             {
               title: "Blog",
               description: "Blog",
