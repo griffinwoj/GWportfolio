@@ -13,6 +13,13 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+.Griffin Studio Logo{
+  font-size: 58px;
+}
+.gIcon{
+  font-size: 58px;
+  justify-content: left;
+}
 /* Styling for navigation link highlight when hovered over or focused on */
 .nav-link-highlight:hover,
 .nav-link-highlight:focus {
