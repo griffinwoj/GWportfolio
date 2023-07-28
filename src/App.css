@@ -1,17 +1,6 @@
-/* RESUME */
+/* App.css */
 
-/* Styling for resume section heading */
-.resume-section h1 {
-  text-align: center;
-  margin-top: 0rem;
-  margin-bottom: 2rem;
-  font-size: 50px;
-}
-/* Set margin top and bottom for resume section */
-.resume-margin {
-  margin-top: 100px;
-  margin-bottom: 200px;
-}
+/* Import the Spacemono font */
 @font-face {
   font-family: 'Spacemono';
   src: url('https://fonts.gstatic.com/s/spacemono/v13/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2') format('woff2');

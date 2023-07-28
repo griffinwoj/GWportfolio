@@ -27,7 +27,7 @@ function About() {
                 As a dedicated husband and father of three, my fervor for music, teaching, and diverse skills like woodworking, electronics, tech, and mechanics drives me. Embracing resourcefulness, I nurture my family, foster creativity, and utilize technology for positive impacts on lives and society, inspiring lifelong learning and personal growth in others.
                 </Card.Text>
                 <Card.Text>
-                  lorem ipsum   
+                    
                 </Card.Text>
               </Card.Body>
             </Card>

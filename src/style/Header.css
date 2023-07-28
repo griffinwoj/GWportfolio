@@ -8,7 +8,10 @@
     font-size: 20px;
   }
 }
-
+body {
+  background-color: #f8f9fa;
+  font-family: Work Sans;
+}
 /* CSS for screens between 321px and 575px (mobile) */
 @media (min-width: 321px) and (max-width: 575px) {
   .text-white.text-decoration-none {
@@ -62,4 +65,15 @@
 
 .text-white.text-decoration-none {
   color: #fff; /* (255,255,255) */
+}
+
+@font-face {
+  font-family: 'Spacemono';
+  src: url('https://fonts.gstatic.com/s/spacemono/v13/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2') format('woff2');
+}
+
+/* Import the Work Sans font */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jpg.woff2') format('woff2');
 }

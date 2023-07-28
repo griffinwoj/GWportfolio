@@ -10,3 +10,20 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+@font-face {
+  font-family: 'Spacemono';
+  src: url('https://fonts.gstatic.com/s/spacemono/v13/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2') format('woff2');
+}
+
+/* Import the Work Sans font */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('https://fonts.gstatic.com/s/worksans/v18/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jpg.woff2') format('woff2');
+}
+.navbar-brand {
+  font-family: 'Spacemono';
+  font-size: 22px;
+  margin-bottom: auto;
+  letter-spacing: 0.1em; /* Adjust the letter-spacing value as needed */
+  word-spacing: 0.2em;   /* Adjust the word-spacing value as needed */
+}
