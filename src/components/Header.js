@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMusic } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faMusic } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row, Col } from "react-bootstrap";
 import "../style/Header.css";
 import gSlogo from "../images/griffinstudio.png"; // Adjust the path as per your project structure
