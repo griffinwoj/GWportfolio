@@ -33,8 +33,7 @@ function App() {
         </div>
         <div className="container">
           <h1>Welcome to My Portfolio</h1>
-          <p>Look below and use A W or D, and SPACEBAR to shoot stuff into things....</p>
-
+          <p>Look below and use A W or D, and SPACEBAR. Sorry, not fully operational for mobile</p>
         </div>
         <div className="asteroids">
           <AsteroidsGame /> {/* Render the AsteroidsGame component */}
