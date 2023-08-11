@@ -363,6 +363,116 @@ function AsteroidsGame() {
                     break
             }
         })
+        //to do: 
+        // add touch controls!
+        //// Add touch event listeners
+// canvas.addEventListener('touchstart', handleTouchStart, false);
+// canvas.addEventListener('touchend', handleTouchEnd, false);
+
+// let touchW = false;
+// let touchA = false;
+// let touchD = false;
+// let touchSpace = false;
+
+// function handleTouchStart(event) {
+//   event.preventDefault();
+//   const touches = event.changedTouches;
+
+//   for (let i = 0; i < touches.length; i++) {
+//     const touch = touches[i];
+
+//     if (touch.clientX < window.innerWidth / 3) {
+//       touchA = true;
+//     } else if (touch.clientX > (2 * window.innerWidth) / 3) {
+//       touchD = true;
+//     } else if (touch.clientY > window.innerHeight / 2) {
+//       touchSpace = true;
+//     }
+//   }
+// }
+
+// function handleTouchEnd(event) {
+//   event.preventDefault();
+//   touchA = false;
+//   touchD = false;
+//   touchSpace = false;
+// }
+// Add keyboard event listeners!!!
+
+// window.addEventListener('keydown', (event) => {
+//     switch (event.code) {
+//       case 'KeyW':
+//         keys.w.pressed = true;
+//         touchW = true;
+//         break;
+//       case 'KeyA':
+//         keys.a.pressed = true;
+//         touchA = true;
+//         break;
+//       case 'KeyD':
+//         keys.d.pressed = true;
+//         touchD = true;
+//         break;
+//       case 'Space':
+//         touchSpace = true;
+//         projectiles.push(
+//           new Projectile({
+//             position: {
+//               x: player.position.x + Math.cos(player.rotation) * 30,
+//               y: player.position.y + Math.sin(player.rotation) * 30,
+//             },
+//             velocity: {
+//               x: Math.cos(player.rotation) * PROJECTILE_SPEED,
+//               y: Math.sin(player.rotation) * PROJECTILE_SPEED,
+//             },
+//           })
+//         );
+//         break;
+//     }
+//   });
+  
+//   window.addEventListener('keyup', (event) => {
+//     switch (event.code) {
+//       case 'KeyW':
+//         keys.w.pressed = false;
+//         touchW = false;
+//         break;
+//       case 'KeyA':
+//         keys.a.pressed = false;
+//         touchA = false;
+//         break;
+//       case 'KeyD':
+//         keys.d.pressed = false;
+//         touchD = false;
+//         break;
+//     }
+//   });
+// if (touchW || keys.w.pressed) {
+//     player.velocity.x = Math.cos(player.rotation) * SPEED;
+//     player.velocity.y = Math.sin(player.rotation) * SPEED;
+//   } else {
+//     player.velocity.x *= FRICTION;
+//     player.velocity.y *= FRICTION;
+//   }
+  
+//   if (touchA || keys.a.pressed) player.rotation -= ROTATIONAL_SPEED;
+//   if (touchD || keys.d.pressed) player.rotation += ROTATIONAL_SPEED;
+  
+//   if (touchSpace) {
+//     projectiles.push(
+//       new Projectile({
+//         position: {
+//           x: player.position.x + Math.cos(player.rotation) * 30,
+//           y: player.position.y + Math.sin(player.rotation) * 30,
+//         },
+//         velocity: {
+//           x: Math.cos(player.rotation) * PROJECTILE_SPEED,
+//           y: Math.sin(player.rotation) * PROJECTILE_SPEED,
+//         },
+//       })
+//     );
+//   }
+  
     }, []);
 
     return (
