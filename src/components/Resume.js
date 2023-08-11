@@ -12,7 +12,7 @@ function Resume() {
         <Row>
           <Col className="text-center">
             <h1>Griffin Wojtowicz</h1>
-            <p>Grosse Pointe Woods, MI | 313.744.0339 | Griffinw@protonmail.com</p>
+            <p>Grosse Pointe Woods, MI | Griffinw@protonmail.com</p>
             <hr className="star-primary" />
             <Button variant="dark" href={PDF} download>
               Download Resume

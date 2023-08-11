@@ -366,6 +366,7 @@ function AsteroidsGame() {
         //to do: 
         // add touch controls!
         //// Add touch event listeners
+
 canvas.addEventListener('touchstart', handleTouchStart, false);
 canvas.addEventListener('touchend', handleTouchEnd, false);
 
@@ -397,7 +398,6 @@ function handleTouchEnd(event) {
   touchD = false;
   touchSpace = false;
 }
-
 
 window.addEventListener('keydown', (event) => {
     switch (event.code) {
@@ -471,6 +471,29 @@ if (touchW || keys.w.pressed) {
         },
       })
     );
+  }
+  function handleTouchStart(event) {
+    event.preventDefault();
+    const touches = event.changedTouches;
+  
+    for (let i = 0; i < touches.length; i++) {
+      const touch = touches[i];
+  
+      if (touch.clientX < window.innerWidth / 3) {
+        keys.a.pressed = true; // Update keyboard state directly
+      } else if (touch.clientX > (2 * window.innerWidth) / 3) {
+        keys.d.pressed = true; // Update keyboard state directly
+      } else if (touch.clientY > window.innerHeight / 2) {
+        touchSpace = true; // Update touch state
+      }
+    }
+  }
+  
+  function handleTouchEnd(event) {
+    event.preventDefault();
+    keys.a.pressed = false; // Update keyboard state directly
+    keys.d.pressed = false; // Update keyboard state directly
+    touchSpace = false; // Update touch state
   }
   
     }, []);
