@@ -1,3 +1,80 @@
- /* PROJECT SECTION */ 
+/* LandingPage.css */
 
- /* */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Project Section */
+  .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .project-card h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card p {
+    color: #666;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .project-links .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-links .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .project-card {
+      width: calc(50% - 40px);
+    }
+  }
+  
