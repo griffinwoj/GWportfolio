@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GWportfolio/static/css/main.134fa00d.css",
-    "main.js": "/GWportfolio/static/js/main.12fc92f4.js",
+    "main.js": "/GWportfolio/static/js/main.88ac354e.js",
     "static/media/mentalM.gif": "/GWportfolio/static/media/mentalM.99062d9574e307279ec8.gif",
     "static/media/21-mern-homework-demo-02 (1).gif": "/GWportfolio/static/media/21-mern-homework-demo-02 (1).f40bcdd624d3951b3c82.gif",
     "static/media/21-mern-homework-demo-02.gif": "/GWportfolio/static/media/21-mern-homework-demo-02.f40bcdd624d3951b3c82.gif",
@@ -13,10 +13,10 @@
     "index.html": "/GWportfolio/index.html",
     "static/media/Resume.pdf": "/GWportfolio/static/media/Resume.31d6cfe0d16ae931b73c.pdf",
     "main.134fa00d.css.map": "/GWportfolio/static/css/main.134fa00d.css.map",
-    "main.12fc92f4.js.map": "/GWportfolio/static/js/main.12fc92f4.js.map"
+    "main.88ac354e.js.map": "/GWportfolio/static/js/main.88ac354e.js.map"
   },
   "entrypoints": [
     "static/css/main.134fa00d.css",
-    "static/js/main.12fc92f4.js"
+    "static/js/main.88ac354e.js"
   ]
 }
