@@ -1,6 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import avatar from "../images/headsh.png";
+import interestImage1 from "../images/interest1.jpg"; // Import additional images
+import interestImage2 from "../images/interest2.jpg";
+// Add more imports for other images
+
 import "../style/About.css";
 
 function About() {
@@ -23,14 +27,12 @@ function About() {
                 <Card.Title className="text-center mb-4">
                   About Griffin Wojtowicz
                 </Card.Title>
+                {/* Add additional Image components for more interests */}
+                <Image src={interestImage1} rounded fluid className="mb-3" />
+                <Image src={interestImage2} rounded fluid className="mb-3" />
+                {/* Add more Image components for other interests */}
                 <Card.Text>
-                  As a dedicated and devoted husband, father of three, my fervor for music, teaching, and diverse skills like woodworking, electronics, tech, and mechanics drives me. Embracing resourcefulness, I nurture my family, foster creativity, and utilize technology for positive impacts of inspiring lifelong learning and personal growth in others.
-                </Card.Text>
-                <Card.Text>
-                  I'm a dedicated Christian husband and father of three, passionate about music, teaching, and a range of skills in woodworking, electronics, tech, and mechanics. I thrive on being resourceful to nurture my family, foster creativity, and use technology for positive impacts inspiring lifelong learning and personal growth. A true jack of all trades, my life is a symphony of various interests. With the soul of a jazz enthusiast, I bring spontaneity and structure to everything I do. From exploring machines to crafting furniture, each endeavor is enriched by the love and support of my family—the chord that ties together the melodies of my diverse pursuits.
-                  <p>
-
-                  </p>
+                  {/* Your existing text content */}
                 </Card.Text>
               </Card.Body>
             </Card>
