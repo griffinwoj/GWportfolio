@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import avatar from "../images/headsh.png";
-import interestImage1 from "../images/interest1.jpg"; // Import additional images
+import interestImage1 from "../images/"; // Import additional images
 import interestImage2 from "../images/interest2.jpg";
 // Add more imports for other images
 
